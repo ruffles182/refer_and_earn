@@ -1,0 +1,71 @@
+<!-- Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<odoo>
+	<template id='footer_usefull_links' inherit_id='website.footer_custom'>
+		<xpath expr='//section/div/div/div/ul' position='inside'>
+			<li><a href='/refer_earn'>Refer and Earn</a></li>
+		</xpath>
+	</template>
+	<template id="my_account_link" name="Link to frontend portal" inherit_id="portal.user_dropdown">
+		<xpath expr="//a[@id='o_logout']" position="before">
+			<a class="dropdown-item" href="/my/refer_earn/" role="menuitem">
+				Refer And Earn
+			</a>
+		</xpath>
+	</template>
+	<template id="template_refer_and_earn" inherit_id="website.navbar_nav" name="Refer and Earn Template Header Default (oe_structure_header_default_1)">
+		<xpath expr="//ul[@id='top_menu']/t" position="after">
+			<li class='nav-item'>
+				<a href="/refer_earn/" class="nav-link font-weight-bold">
+					Refer And Earn
+				</a>
+			</li>
+		</xpath>
+	</template>
+	<template id="template_refer_and_earn_ferral" inherit_id="website.header_call_to_action" name="Referral and Earn Template Header Default (oe_structure_header_default_1)">
+		<!-- <xpath expr="//div[@class='#{_div_classes}']" position="before"> -->
+		<xpath expr="." position="inside">
+			<!-- Button trigger modal -->
+			<t t-if="request.env.user.refer_and_earn_flag()">
+				<button type="button" id="refferal_code_button" class="btn btn-primary" data-toggle="modal" data-target="#refferal_code">
+					Referral Code
+				</button>
+			
+			<!-- Modal -->
+            <form action='/' id='reffered_code_id'>
+			<div class="modal fade" id="refferal_code" tabindex="-1" role="dialog" aria-labelledby="head_referral_label" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="head_referral_label" style="padding-top:10px">
+								Apply Referral Code And Earn
+							</h5>
+						</div>
+						<div class="modal-body form-group">
+							<div class="alert alert-danger d-none alert_none">
+							
+							</div>
+							<div>
+								<label class='control-label' for="referral_input_id">
+									Refferal Code :
+								</label>
+								<input class='form-control' type="text" placeholder="Put Your Referral Code" id="referral_input_id" name="referral" minlength="10" maxlength="10">
+								</input>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary btn_close" data-dismiss="modal">
+								Close
+							</button>
+							<button type="submit" class="btn btn-primary" id="reffered_save">
+								Save
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            </form>
+            </t>
+		</xpath>
+	</template>
+</odoo>
