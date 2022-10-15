@@ -1,0 +1,1001 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* refer_and_earn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220710\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 02:38+0000\n"
+"PO-Revision-Date: 2022-10-13 02:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "(Active OAuth check and show on oauth users.)"
+msgstr "(Comprobación y programa activo de OAuth en usuarios de OAuth)."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "(Customer who Signup with the Friend's Referral code.)"
+msgstr "(Cliente que se registra con el código de referencia del amigo)."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "(Customer who's Referral Code is used.)"
+msgstr "(Cliente del que se usa el código de referencia)."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referal_earning_payment
+msgid "(Your current balance is"
+msgstr "(Tu saldo actual es"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "(select to set the Referral Points)"
+msgstr "(seleccione para establecer los puntos de referencia)"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__equivalent_amount
+msgid "1Point equivalent amount"
+msgstr "Cantidad equivalente de 1 punto"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid ""
+"<b style=\"color:#337ab7;\"> Approved : </b> Amount has been credited successfully as per your request.<br/>\n"
+"               <b style=\"color:#ec971f;\"> Pending :</b> Request for amount credit is under process.<br/>\n"
+"               <b style=\"color:red;\"> Rejected :</b> Request for the referral commission has been canceled by Admin. <br/>\n"
+"                <b style=\"color:#3c763d;\">Error : </b> System has reported some technical issues while approving your request.<br/>\n"
+"                <b style=\"color:#b733ad;\">Cancel :</b> Request has been canceled due to incorrect referral credentials. <br/>"
+msgstr ""
+"<b style = ""color:#337ab7;"">aprobado:</b> La cantidad se ha acreditado con éxito según su solicitud. <br/>"
+"               <b style = ""color:#ec971f;"">pendiente:</b> La solicitud de crédito de cantidad está en proceso. <br/>"
+"               <b style = ""color: rojo;""> rechazado:</b> La solicitud de la comisión por referencia ha sido cancelada por Admin. <br/>"
+"               <b style = ""color:#3C763D;""> Error:</b> El sistema ha informado algunos problemas técnicos al aprobar su solicitud. <br/>"
+"               <b style = ""color:#B733AD;""> Cancelar:</b> La solicitud se ha cancelado debido a credenciales de referencia incorrectas. <br/>"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid ""
+"<b>\n"
+"                      SIGNED UP\n"
+"                    </b>"
+msgstr ""
+"<b>\n"
+"REGISTRARSE \n"
+"</b>\n"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid ""
+"<b>\n"
+"                       EARNED   \n"
+"\n"
+"                    </b>"
+msgstr ""
+"<b>\n"
+"Ganado\n"
+"\n"
+"</b>\n"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "<b> Referral member Signed Up :</b>"
+msgstr "<b>Miembro de referencia registrado:</b>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "<b> Remaining Referral Amount :</b>"
+msgstr "<b>Cantidad de referencia restante:</b>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<b>*Note :</b> Configure How it works? accordingly to Commission Type"
+msgstr "<b>*Nota:</b> Configurar ¿Cómo funciona? acorde al tipo de comisión"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "<b>Earning via Referring</b>"
+msgstr "<b> Ganar por referencia </b>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "<b>Refer And Earn</b>"
+msgstr "<b> referir y ganar </b>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid ""
+"<br/>\n"
+"                        <span style=\"position: relative;top: 10%;\">\n"
+"                           <b>E</b>asy To Use\n"
+"                        </span>"
+msgstr ""
+"<br/>\n"
+"<span style = \"position: relative; up: 10%;\">\n"
+"<b>F</b>ácil de usar\n"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid ""
+"<br/><br/>\n"
+"                        <b>E</b>arn Rewards"
+msgstr ""
+"<br/> <br/>\n"
+"<b>G</b>ane recompensas\n"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid ""
+"<br/><br/>\n"
+"                        <b>E</b>asy To Track Your\n"
+"                        <br/>\n"
+"                        Stats"
+msgstr ""
+"<br/> <br/>\n"
+"<b>F</b>ácil de rastrear tus\n"
+"<br/>\n"
+"Estadísticas\n"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Activate OAuth</span>"
+msgstr "<span class = \"o_form_label\"> activar oauth </span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Commission Type_id</span>"
+msgstr "<span class = \"o_form_label\">Comisión type_id</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Equivalent Amount</span>"
+msgstr "<span class = \"o_form_label\">Cantidad equivalente</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Expire Days To Referral Code</span>"
+msgstr "<span class = \"o_form_label\">Dias para expirar del código de referencia</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">How it works</span>"
+msgstr "<span class = \"o_form_label\">cómo funciona</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Landing Page</span>"
+msgstr "<span class = \"o_form_label\">página de destino</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Mail Template</span>"
+msgstr "<span class = \"o_form_label\">plantilla de correo</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Referral Points</span>"
+msgstr "<span class = \"o_form_label\">Puntos de referencia</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Referred Points</span>"
+msgstr "<span class = \"o_form_label\">puntos referidos</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Set Amount for per Point</span>"
+msgstr "<span class = \"o_form_label\">establecer la cantidad por punto</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Set Referral Points</span>"
+msgstr "<span class = \"o_form_label\">Establecer puntos de referencia</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Set Referrer Points</span>"
+msgstr "<span class = \"o_form_label\">Establecer puntos de referencia</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid ""
+"<span class=\"underline\"><span class=\"title_span\">Refer A "
+"Friend</span></span>"
+msgstr ""
+"<span class = \"underline\"> <span class = \"title_span\">Refiera a un "
+"amigo</span> </span>"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "<span class=\"underline\">Benefits</span>"
+msgstr "<span class = \"underline\">beneficios</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "<span class=\"underline\">How To Earn</span>"
+msgstr "<span class = \"underline\">Cómo ganar</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "<span class=\"underline\">How it Works ?</span>"
+msgstr "<span class = \"underline\">Cómo funciona ?</span>"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid ""
+"<span>(*) This configuration is related to the company you're logged "
+"into.</span>"
+msgstr ""
+"<span>(*)Esta configuración está relacionada con la empresa en la que se ha registrado."
+"</span>"
+
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "<u>Reward Stats</u>"
+msgstr "<>estadísticas de recompensa</u>"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__active_refer_and_earn_oauth
+msgid "Active Refer & Earh oauth"
+msgstr "Activar referencias"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+msgid "Apply Referral Code And Earn"
+msgstr "Aplicar código de referencia y ganar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referral_transaction_history_view_form
+msgid "Approve"
+msgstr "Aprobar"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__state__approve
+msgid "Approved"
+msgstr "Aprobado"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid ""
+"Approved/Referred Commission based On: <br/>\n"
+"                                        1)When Refferal customer Signup with Refferal code <br/>\n"
+"                                        2)When Refferal customer Signup with Refferal code and after complete first order"
+msgstr ""
+"Comisión aprobada/remitida basada en: <br/>\n"
+"                                       1) Cuando se registre el cliente referido con el código referente<br/>\n"
+"                                       2) Cuando se registre el cliente referido con el código referente y después de completar el primer pedido"
+
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__res_config_settings__verify_commission__autoapprove
+msgid "Auto Approve"
+msgstr "Auto aprobar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "Back"
+msgstr "Regresar"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__commission_type
+msgid "Bonus Type"
+msgstr "Tipo de Bonus"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__state__cancel
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referral_transaction_history_view_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_how_it_work_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_landingConten_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Click on the above button to view reward Stats"
+msgstr "Click en el botón superior para ver las estadísticas de ganancia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__verify_commission
+msgid "Commission Type"
+msgstr "Tipo de comisión"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: refer_and_earn
+#: model:ir.ui.menu,name:refer_and_earn.referral_cofiguration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "Configure How it Works?"
+msgstr "Configurar cómo funciona?"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "Configure Landing Page"
+msgstr "Configurar la página de destino"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "Configure Mail Template"
+msgstr "Configurar la plantilla de correo"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Copy To Clipboard"
+msgstr "Copiar al porta papeles"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__create_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__create_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__create_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__create_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__create_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__create_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "Creation Date"
+msgstr "Fecha de creación"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__point_type__c
+msgid "Credit"
+msgstr "Crédito"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "Credit("
+msgstr "Crpedito("
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__currency_id
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__currency_id
+msgid "Currency"
+msgstr "Divisa"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referral_transaction_history_view_form
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_transaction_history__partner_id
+msgid "Customer detail from which Transaction belong"
+msgstr "Detalles del cliente a partir de los cuales pertenecen la transacción"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__days_to_expire_oauth_earn_wizard
+msgid "Day to exprire oauth"
+msgstr "Día de expiración de oauth"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__point_type__d
+msgid "Debit"
+msgstr "Débito"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__debit_sale_order_id
+msgid "Debit Sale Order"
+msgstr "Orden de venta de débito"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "Debit("
+msgstr "Débito"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Detailed View   &gt;&gt;"
+msgstr "Vista detallada   &gt;&gt;;"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Direct Referral"
+msgstr "Referencia directa"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__display_name
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__display_name
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__display_name
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.account_sign_up_referral
+msgid "Do you have any referral code?"
+msgstr "¿Tiene algún código de referencia?"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Earned Amount :"
+msgstr "Cantidad ganada:"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Earning by Referring!"
+msgstr "Gane por referencias!"
+
+#. module: refer_and_earn
+#: code:addons/refer_and_earn/models/referral_cofig_setting.py:0
+#, python-format
+msgid "Equivalent Amount should not be zero, nor negative. "
+msgstr "La cantidad equivalente no debe ser cero ni negativa. "
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__state__error
+msgid "Error"
+msgstr "Error"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__first_sale_order_id
+msgid "First Sale Order"
+msgstr "Primera orden de venta"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Give"
+msgstr "Dar"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__how_it_works_content
+msgid "How it Work? Content"
+msgstr "Contenido de ¿Como funciona?"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__how_it_works_content
+msgid "How it Works?"
+msgstr "¿Como funciona?"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__id
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__id
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__id
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Invite your friend and earn"
+msgstr "Invita a tus amigos y gana"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_partner__is_direct
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_users__is_direct
+msgid "Is Direct"
+msgstr "Es directo"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__is_refferal_points_used
+msgid "Is Refferal Points Used"
+msgstr "Se usan los puntos de referidos"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__home_page_content
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__landing_content
+msgid "Landing Page Content"
+msgstr "Contenido de la página de destino"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history____last_update
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work____last_update
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content____last_update
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__write_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__write_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__write_uid
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__write_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_how_it_work__write_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_landing_content__write_date
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__mail_body
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__mail_body
+msgid "Mail Body"
+msgstr "Cuerpo de correo"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__mail_subject
+#: model:ir.model.fields,field_description:refer_and_earn.field_wizard_mail_template__mail_subject
+msgid "Mail Subject"
+msgstr "Asunto de correo"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__currency_id
+msgid "Main currency of the company."
+msgstr "Divisa principal de la empresa."
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__res_config_settings__verify_commission__afterorder
+msgid "On successful completion of first order"
+msgstr "Al completar con éxito el primer pedido"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__partner_id
+msgid "Partner"
+msgstr "Compañero"
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__state__draft
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_referral_transaction_filter
+msgid "Pending For Approval"
+msgstr "Pendiente de aprobación"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_referral_transaction_filter
+msgid "Pending Transaction"
+msgstr "Transacción pendiente"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__points
+msgid "Points"
+msgstr "Puntos"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+msgid "Put Your Referral Code"
+msgstr "Pon tu código de referencia"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__reason
+msgid "Reason"
+msgstr "Motivo"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Refer A Friend And Earn Rewards"
+msgstr "Refiera a un amigo y gane recompensas"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.my_account_link
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn
+msgid "Refer And Earn"
+msgstr "Referir y ganar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "Refer And Earn Configure"
+msgstr "Configurar Referir y ganar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.refer_and_earn_res_config_settings_view_form
+msgid "Refer And Earn Oauth"
+msgstr "Referir y ganar OAuth"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Refer Us! to your Friend &amp; Earn Reward"
+msgstr "¡Recomiéndanos! a tus amigos &amp; Obtén recompensas"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Refer a friend to Get them"
+msgstr "Refiera a un amigo para obtenerlos"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.footer_usefull_links
+msgid "Refer and Earn"
+msgstr "Referir y ganar"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__child_id
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__commission_type__child
+msgid "Referral"
+msgstr "Referido"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_partner__referral_code
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_users__referral_code
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__referral_code
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Referral Code"
+msgstr "Código de referencia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Referral Code :"
+msgstr "código de referencia:"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_users__referral_code_used_bool
+msgid "Referral Code Used"
+msgstr "Código de referencia utilizado"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__referral_points
+msgid "Referral Commmission Amount"
+msgstr "Comisión por Referencias"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Referral Details"
+msgstr "Detalles de referencia"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_partner__referral_earning
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_users__referral_earning
+msgid "Referral Earning"
+msgstr "Ganancia de referencia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Referral Earnings"
+msgstr "Ganancias de referencias"
+
+#. module: refer_and_earn
+#: model:ir.ui.menu,name:refer_and_earn.referral_manager_menu_base_root
+msgid "Referral Manager"
+msgstr "Manejador de referencia"
+
+#. module: refer_and_earn
+#: code:addons/refer_and_earn/models/referral_cofig_setting.py:0
+#, python-format
+msgid "Referral Point should not be negative."
+msgstr "El punto de referencia no debe ser negativo."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Referral Programme"
+msgstr "Programa de referencia"
+
+#. module: refer_and_earn
+#: model:ir.actions.act_window,name:refer_and_earn.referral_transaction_history_view_action
+msgid "Referral Transaction History"
+msgstr "Historial de transacciones de referencia"
+
+#. module: refer_and_earn
+#: model:ir.ui.menu,name:refer_and_earn.referral_request_menu
+msgid "Referral Transaction Request"
+msgstr "Solicitud de transacción de referencia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Referred By"
+msgstr "Referido por"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_config_settings__refered_points
+msgid "Referred Commmission Amount"
+msgstr "cantidad de comisión por referencia"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__verify_commission
+msgid "Referred Customer Commission based on"
+msgstr ""
+
+#. module: refer_and_earn
+#: code:addons/refer_and_earn/models/referral_cofig_setting.py:0
+#, python-format
+msgid "Referred Point should not be zero, nor negative."
+msgstr "Comisión de clientes referido basada en"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__parent_id
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__commission_type__parent
+msgid "Referrer"
+msgstr "Referente"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+msgid "Refferal Code :"
+msgstr "Código de referencia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referral_transaction_history_view_form
+msgid "Reject"
+msgstr ""
+
+#. module: refer_and_earn
+#: model:ir.model.fields.selection,name:refer_and_earn.selection__transaction_history__state__reject
+msgid "Rejected"
+msgstr "Rechazado"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Represented by Tripple E (EEE)"
+msgstr "Representado por Tripple E (EEE)"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__referral_points
+msgid ""
+"Reward points Earn by referral (customer who signup with friend's referral "
+"code)"
+msgstr ""
+"Puntos de recompensa ganados por referido (cliente que se inscribió con el código de referencia "
+"de un amigo)"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__refered_points
+msgid ""
+"Reward points a referrer will earn (referrer: customer whose referral code "
+"is used by his friend)"
+msgstr ""
+"Puntos de recompensa Un referente ganará (Referente: Cliente "
+"cuyo código de referencia es utilizado por su amigo)"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "START EARNING NOW"
+msgstr "EMPIECE A GANAR AHORA"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_sale_order
+msgid "Sales Order"
+msgstr "Orden de venta"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.template_refer_and_earn_ferral
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_how_it_work_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_landingConten_form
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "Save"
+msgstr "Guardar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_referral_transaction_filter
+msgid "Search Transaction"
+msgstr "Buscar transacciones"
+
+#. module: refer_and_earn
+#: model:ir.actions.act_window,name:refer_and_earn.action_refer_and_earn_configuration
+#: model:ir.ui.menu,name:refer_and_earn.referral_setting_sub_menu_1
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Share With Friends :"
+msgstr "Compartir con amigos :"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "Sharing is Earning"
+msgstr "Compartir es ganar"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid ""
+"Sign-in to your account and share your Unique Referral Code with your "
+"connections.You will Earn Reward for every referral (with your Referral "
+"Code) sign up."
+msgstr ""
+"Inicie sesión en su cuenta y comparta su código de referencia único con sus conexiones."
+" Ganará recompensa por cada referencia (con su código de referencia) Regístrese."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Signed Up :"
+msgstr "Inscrito :"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__state
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "State"
+msgstr "Estado"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "Supported Acronyms in Mail template"
+msgstr "Acrónimos compatibles en plantilla de correo"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "There are no Transactions"
+msgstr "No hay transacciones"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__total_amount
+msgid "Total Amount"
+msgstr "Cantidad Total"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_transaction_history
+#: model:ir.ui.menu,name:refer_and_earn.referral_transaction_sub_menu_1
+msgid "Transaction History"
+msgstr "Historial de transacciones"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__point_type
+msgid "Transaction Type"
+msgstr "Tipo de Transacción"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.view_partner_referral_detail_form
+msgid "Transactions"
+msgstr "Transacciones"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_sale_order__use_re_epoints
+msgid "Use Redeemable Points"
+msgstr "Use puntos redimibles"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referal_earning_payment
+msgid "Use Referral Earnings"
+msgstr "Use ganancias de referencias"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.referal_earning_payment
+msgid "Use Referral Earnings:"
+msgstr "Use ganancias de referencias:"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_sale_order__redeemable_amount
+#: model:ir.model.fields,field_description:refer_and_earn.field_sale_order__redeemable_points
+msgid "Used Referred Earn points"
+msgstr "Puntos de referidos usados"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_transaction_history__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_transaction_history__user_id
+msgid "User detail from which Transaction belong"
+msgstr "Detalles del cliente a partir de los cuales pertenecen la transacción"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_wizard_landing_content
+msgid "Wizard Landing Content"
+msgstr "Asistente de contenido Destino"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_wizard_how_it_work
+msgid "Wizard how it work"
+msgstr "Asistente como funciona"
+
+#. module: refer_and_earn
+#: model:ir.model,name:refer_and_earn.model_wizard_mail_template
+msgid "Wizard mail template"
+msgstr "Asistente de Template de correo"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "You spread the word, we will share the wealth."
+msgstr "Corre la voz, compartiremos la riqueza."
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+msgid "Your Referred Stats :"
+msgstr "Sus estadísticas de referencias:"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "and Get"
+msgstr "y obtén"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "and We'll Give you"
+msgstr "Y te daremos"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.account_sign_up_referral
+msgid "e.g.XXXXXXXXXXX"
+msgstr "por ejemplo: XXXXXXXXXXX"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__equivalent_amount
+msgid "equivalent amount (1 reward points is equal to how much amount)"
+msgstr "Cantidad equivalente (1 punto de recompensa es igual a cúanta cantidad)"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.homepage
+msgid "for each referral"
+msgstr "Para cada referencia"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.myReferEarn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.stats
+msgid "friends"
+msgstr "Amigos"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_partner__parent_user_id
+#: model:ir.model.fields,field_description:refer_and_earn.field_res_users__parent_user_id
+msgid "parent Referral User"
+msgstr "Usuario de referido"
+
+#. module: refer_and_earn
+#: model:ir.model.fields,help:refer_and_earn.field_res_config_settings__is_refferal_points_used
+msgid "set Refferal points"
+msgstr "Establecer puntos Referidos"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "{{referral_code}} - Customer Referral Code"
+msgstr "{{referal_code}} - Código de referencia del cliente"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "{{reward_amt}} - Amount Earned by Customer friend"
+msgstr "{{reward_amt}} - Cantidad ganada por el amigo del cliente"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "{{signup_link}} - Customer Sign Up Refferal Link"
+msgstr "{{signup_link}} - enlace del cliente referido"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "{{user_name}} - Customer Name"
+msgstr "{{user_name}} - Nombre del cliente"
+
+#. module: refer_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_and_earn.wizard_mail_template_refer_earn_form
+msgid "{{website_name}} - Name of the website."
+msgstr "{{website_name}} - Nombre del sitio web."
